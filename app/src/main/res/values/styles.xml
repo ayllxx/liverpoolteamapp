@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing styles -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Define TitleTextStyle for toolbar title -->
+    <style name="TitleTextStyle">
+        <item name="android:textSize">24sp</item> <!-- Set text size -->
+        <item name="android:textStyle">bold</item> <!-- Make text bold -->
+        <item name="android:textColor">@android:color/white</item> <!-- Set text color to white -->
+    </style>
+</resources>
