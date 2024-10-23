@@ -6,10 +6,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.content.Intent;
+import android.widget.Button;
 
 public class PlayerDetailsActivity extends AppCompatActivity {
 
     private String wikiUrl;  // Wikipedia URL for the player
+    private String achievements;  // Achievements of the player
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,9 @@ public class PlayerDetailsActivity extends AppCompatActivity {
         TextView playerName = findViewById(R.id.player_name);
         TextView playerBio = findViewById(R.id.player_bio);
         TextView playerStats = findViewById(R.id.player_stats);
+        Button moreDetailsButton = findViewById(R.id.more_details_button);  // New button for more details
+
+
 
         // Get player details from the Intent
         Bundle bundle = getIntent().getExtras();
@@ -29,6 +34,10 @@ public class PlayerDetailsActivity extends AppCompatActivity {
             String playerPosition = bundle.getString("playerPosition");
             String playerBioStr = bundle.getString("playerBio");
             String playerImageStr = bundle.getString("playerImage");
+            achievements = bundle.getString("playerAchievements");  // Get player achievements
+            if (achievements == null || achievements.isEmpty()) {
+                achievements = "No achievements available";  // Handle case where achievements are null
+            }
             int playerGoals = bundle.getInt("playerGoals", 0);
             int playerAssists = bundle.getInt("playerAssists", 0);
             int playerCleanSheets = bundle.getInt("playerCleanSheets", 0);
@@ -65,6 +74,14 @@ public class PlayerDetailsActivity extends AppCompatActivity {
         fabWiki.setOnClickListener(v -> {
             Intent intent = new Intent(PlayerDetailsActivity.this, WebViewActivity.class);
             intent.putExtra("wikiUrl", wikiUrl);  // Pass the Wikipedia URL to WebViewActivity
+            startActivity(intent);
+        });
+
+        // Handle the More Details button click
+        moreDetailsButton.setOnClickListener(v -> {
+            Intent intent = new Intent(PlayerDetailsActivity.this, PlayerMoreDetailsActivity.class);
+            intent.putExtra("playerName", playerName.getText().toString());
+            intent.putExtra("playerAchievements", achievements);  // Pass achievements to the next activity
             startActivity(intent);
         });
     }

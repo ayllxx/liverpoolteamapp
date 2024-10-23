@@ -23,13 +23,16 @@
             </intent-filter>
         </activity>
 
-        <!-- PlayerDetailsActivity -->
+        <!-- Player Details -->
         <activity android:name=".PlayerDetailsActivity"
             android:exported="true" />
 
         <!-- WebViewActivity -->
         <activity android:name=".WebViewActivity"
             android:exported="true" />
+
+        <!-- More Details -->
+        <activity android:name=".PlayerMoreDetailsActivity" />
 
     </application>
 

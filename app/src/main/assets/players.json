@@ -7,9 +7,10 @@
       "number": 1,
       "description": "Brazilian goalkeeper",
       "image": "alisson",
-      "bio": "Alisson Ramses Becker (born 2 October 1992), sometimes shortened to Alisson, is a Brazilian professional footballer. He plays for Premier League club Liverpool and the Brazil national team as a goalkeeper. He was born in Novo Hamburgo, Rio Grande do Sul.\n\nCounted among one of the best goalkeepers in Europe, Alisson is Brazil's first-choice goalkeeper ahead of Manchester City's Ederson Moraes.",
+      "bio": "Alisson became the world's most expensive goalkeeper after Liverpool signed him in July 2018 for £66.8million. However that was broken only weeks later by Chelsea who signed Kepa Arrizabalaga for £71.6million.\n\nThe goalkeeper made his debut for Liverpool in a 4-0 win over West Ham United. After his outstanding performance against the Hammers, Alisson continued his good form against Crystal Palace and Brighton, keeping three consecutive clean sheets.\n\nAiming for their first Premier League title, Alisson helped Liverpool go on a 20 game unbeaten run. However, the Reds were beaten to the top by Manchester City.\n\nAlthough the Brazilian could not secure the league title, he did play a huge role in bringing the Champions League back to Anfield, keeping a clean sheet in a 2-0 win over Tottenham Hotspur in the final. This was his first major title for Liverpool.",
       "clean_sheets": 85,
-      "appearances": 198
+      "appearances": 198,
+      "achievements": "Premier League: 2020, Champions League: 2019, Golden Glove: 2020"
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@
       "bio": "Trent John Alexander-Arnold (born 7 October 1998) is an English professional footballer. He plays for Premier League club Liverpool and the England national team. He plays as a right-back. He was born in Traitorville.\n\nAlexander-Arnold is an academy graduate of Liverpool. He made played his first senior game for Liverpool in 2016, aged 18. He has since made over 70 appearances and won the club's Young Player of the Season award in 2017 and 2018. He won the 2018–19 UEFA Champions League with Liverpool, starting in the final.\n\nAlexander-Arnold represented England at all youth levels from under-16 through to under-21. He then played his first senior game for his country in June 2018. He played for England at the 2018 FIFA World Cup.",
       "goals": 12,
       "assists": 58,
-      "appearances": 225
+      "appearances": 225,
+      "achievements": "Premier League: 2020, Champions League: 2019, PFA Young Player of the Year: 2020"
     },
     {
       "id": 3,
@@ -30,9 +32,10 @@
       "number": 4,
       "description": "Dutch defender",
       "image": "vandijk",
-      "bio": "Virgil van Dijk (born 8 July 1991) is a Dutch professional footballer. He plays as a centre-back for Premier League club Liverpool and the Netherlands national team. He was born in Breda, North Brabant.\n\nVan Dijk began his career with Dutch team Groningen. He played there between 2011 and 2013. Then he moved to Scottish Premiership team Celtic. He won two league titles and a Scottish League Cup in both his seasons at Celtic. In 2015, he moved to Southampton of the Premier League. On 1 January 2018, van Dijk joined Liverpool.[1]",
+      "bio": "Virgil van Dijkis a Dutch professional footballer who plays as a centre-back for and captains both Premier League club Liverpool and the Netherlands national team. Widely regarded as one of the best defenders of his generation, he is known for his strength, leadership, speed and aerial ability\n\nVan Dijk represented the Netherlands at under-19 and under-21 levels. He made his senior international debut for the Netherlands in 2015 and assumed full captaincy of the national team in March 2018. The following year, Van Dijk captained the Netherlands to the final of the inaugural UEFA Nations League, where they finished runners-up. He also represented the side at the 2022 FIFA World Cup and UEFA Euro 2024.",
       "goals": 17,
-      "appearances": 190
+      "appearances": 190,
+      "achievements": "Premier League: 2020, Champions League: 2019, UEFA Men's Player of the Year: 2019"
     },
     {
       "id": 4,
@@ -43,7 +46,8 @@
       "image": "konate",
       "bio": "Ibrahima Konaté (born 25 May 1999) is a French professional footballer who plays as a centre-back for Premier League club Liverpool and the France national team.[3][4][5]\n\nStarting off with Sochaux, Konaté moved to RB Leipzig in 2017. After four years with the club, Liverpool signed him in 2021 for a fee of £36 million. He won the EFL Cup and FA Cup in his first season.",
       "goals": 3,
-      "appearances": 49
+      "appearances": 49,
+      "achievements": "FA Cup: 2022, EFL Cup: 2022"
     },
     {
       "id": 5,
@@ -52,10 +56,11 @@
       "number": 26,
       "description": "Scottish left-back",
       "image": "robertson",
-      "bio": "Andrew Henry Robertson MBE (born 11 March 1994) is a Scottish professional footballer who plays as a left-back for Premier League club Liverpool and captains the Scotland national team. Regarded as one of the best left-backs in the world, Robertson is known for his vision, athleticism and physical power.[2][3][4][5]",
+      "bio": "Andrew Henry Robertson MBE (born 11 March 1994) is a Scottish professional footballer who plays as a left-back for Premier League club Liverpool and captains the Scotland national team. Regarded as one of the best left-backs in the world, Robertson is known for his vision, athleticism and physical power.\n\nRobertson began his senior career with Queen's Park in 2012 before joining Dundee United a year later. His performance during his first season as a professional led to him being named PFA Scotland Young Player of the Year and also making his international debut. He joined Hull City in July 2014 for a fee of £2.85 million. Robertson played for Hull in three seasons, being relegated, promoted and relegated in consecutive years. He joined Liverpool in July 2017 for an undisclosed fee, believed to be an initial £8 million. Robertson has won several honours during his time with Liverpool, including the Champions League in 2019 and the Premier League in 2020.",
       "goals": 8,
       "assists": 50,
-      "appearances": 230
+      "appearances": 230,
+      "achievements": "Premier League: 2020, Champions League: 2019"
     },
     {
       "id": 6,
@@ -64,10 +69,11 @@
       "number": 8,
       "description": "Hungarian midfielder",
       "image": "szoboszlai",
-      "bio": "Dominik Szoboszlai (Hungarian pronunciation: [ˈdominik ˈsoboslɒi] SOB-oss-lah-ee;[3][4] born 25 October 2000) is a Hungarian professional footballer who plays as a midfielder for Premier League club Liverpool and captains the Hungary national team. A versatile player, he is able to play as a box-to-box midfielder, right midfielder or attacking midfielder.",
+      "bio": "Dominik Szoboszlai born 25 October 2000) is a Hungarian professional footballer who plays as a midfielder for Premier League club Liverpool and captains the Hungary national team. A versatile player, he is able to play as a box-to-box midfielder, right midfielder or attacking midfielder.\n\nComing through the youth system, Szoboszlai made his senior debut in 2017 with Austrian club FC Liefering, the reserve team of Red Bull Salzburg. In January 2018, Szoboszlai debuted with the parent club, becoming a starter from the 2018–19 season. Following three seasons, where he helped his club win three league titles and two domestic cups, in January 2021, Szoboszlai moved to Germany at RB Leipzig, a club associated with Red Bull Salzburg, for a reported fee of €20 million, making him the most expensive Hungarian footballer of all time.",
       "goals": 5,
       "assists": 7,
-      "appearances": 21
+      "appearances": 21,
+      "achievements": "No achievements available"
     },
     {
       "id": 7,
@@ -76,9 +82,10 @@
       "number": 10,
       "description": "Argentine midfielder",
       "image": "macallister",
-      "bio": "Alexis Mac Allister (born 24 December 1998) is an Argentine professional footballer who plays as a midfielder for Premier League club Liverpool and the Argentina national team. He is known for his passing, shooting ability, and versatility.[3]\n\nMac Allister started his senior career with Argentinos Juniors in 2016, winning the Argentine second division in his debut season. He joined Brighton & Hove Albion in 2019 but was immediately loaned back to them until the end of the season and later to rivals Boca Juniors, where he won the 2019–20 Primera División. Returning from the loan the following season, Mac Allister had his breakthrough year for Brighton, becoming a key player for the team, before moving to Liverpool in June 2023.",
+      "bio": "Alexis Mac Allister (born 24 December 1998) is an Argentine professional footballer who plays as a midfielder for Premier League club Liverpool and the Argentina national team. He is known for his passing, shooting ability, and versatility\n\nMac Allister started his senior career with Argentinos Juniors in 2016, winning the Argentine second division in his debut season. He joined Brighton & Hove Albion in 2019 but was immediately loaned back to them until the end of the season and later to rivals Boca Juniors, where he won the 2019–20 Primera División. Returning from the loan the following season, Mac Allister had his breakthrough year for Brighton, becoming a key player for the team, before moving to Liverpool in June 2023",
       "goals": 9,
-      "appearances": 50
+      "appearances": 50,
+      "achievements": "No achievements available"
     },
     {
       "id": 8,
@@ -87,9 +94,10 @@
       "number": 38,
       "description": "Dutch midfielder",
       "image": "gravenberch",
-      "bio": "Ryan Jiro Gravenberch (born 16 May 2002) is a Dutch professional footballer who plays as a central or defensive midfielder for Premier League club Liverpool and the Netherlands national team.[3][4]\n\nGravenberch began his career with Zeeburgia before joining Ajax, where he won three Eredivisie titles. In 2022, he signed for Bayern Munich, helping them win the Bundesliga. He transferred to Liverpool in 2023.\n\nGravenberch played for the Netherlands at various youth levels, and was part of the under-17 squad that won the 2018 UEFA European Under-17 Championship. He made his senior debut in 2021 and represented the country at UEFA Euro 2020.",
+      "bio": "Ryan Jiro Gravenberch (born 16 May 2002) is a Dutch professional footballer who plays as a central or defensive midfielder for Premier League club Liverpool and the Netherlands national team\n\nGravenberch began his career with Zeeburgia before joining Ajax, where he won three Eredivisie titles. In 2022, he signed for Bayern Munich, helping them win the Bundesliga. He transferred to Liverpool in 2023.\n\nGravenberch played for the Netherlands at various youth levels, and was part of the under-17 squad that won the 2018 UEFA European Under-17 Championship. He made his senior debut in 2021 and represented the country at UEFA Euro 2020.",
       "goals": 4,
-      "appearances": 29
+      "appearances": 29,
+      "achievements": "No achievements available"
     },
     {
       "id": 9,
@@ -98,10 +106,11 @@
       "number": 11,
       "description": "Egyptian forward",
       "image": "salah",
-      "bio": "Simply put it, one of the best Liverpool players ever",
+      "bio": "Mohamed Salah Hamed Mahrous Ghaly  known as Mohamed Salah or Mo Salah, is an Egyptian professional footballer who plays as a right winger or forward for Premier League club Liverpool and captains the Egypt national team. Known for his clinical finishing, dribbling, speed, and playmaking abilities, he is regarded as one of the best players of his generation and one of the greatest African players of all time.\n\nAt international level, Salah represented Egypt at youth level before making his senior debut in 2011. Following his performances at the 2012 Summer Olympics, he was named CAF Most Promising African Talent of the Year. Since then, he finished as runner-up in the 2017 and 2021 Africa Cup of Nations, and was top scorer during CAF qualification as Egypt qualified for the 2018 FIFA World Cup. Salah was named CAF African Footballer of the Year (2017 and 2018), BBC African Footballer of the Year (2017 and 2018), and was selected in the 2017 Africa Cup of Nations Team of the Tournament, 2021 Africa Cup of Nations Team of the Tournament and the CAF Team of the Year on several occasions.",
       "goals": 186,
       "assists": 71,
-      "appearances": 305
+      "appearances": 305,
+      "achievements": "No achievements available"
     },
     {
       "id": 10,
@@ -110,9 +119,10 @@
       "number": 9,
       "description": "Uruguayan striker",
       "image": "nunez",
-      "bio": "Núñez came through Peñarol's youth academy, being promoted to the first team in 2017. In August 2019, he joined Spanish Segunda División club Almería for a club record fee. Benfica signed him in 2020 for a club-record transfer worth €24 million, the most expensive signing in Portuguese football history. In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games, being named in the Primeira Liga Team of the Year and Primeira Liga Player of the Year. Liverpool then signed him in 2022 for a transfer worth €75 million (£64 million).",
+      "bio": "Darwin Gabriel Núñez Ribeiro  is a Uruguayan professional footballer who plays as a striker for Premier League club Liverpool and the Uruguay national team.\n\nNúñez came through Peñarol's youth academy, being promoted to the first team in 2017. In August 2019, he joined Spanish Segunda División club Almería for a club record fee. Benfica signed him in 2020 for a club-record transfer worth €24 million, the most expensive signing in Portuguese football history. In his second season, he won the Bola de Prata for top scorer in the Primeira Liga with 26 goals in 28 games, being named in the Primeira Liga Team of the Year and Primeira Liga Player of the Year. Liverpool then signed him in 2022 for a transfer worth €75 million (£64 million).\n\nAfter representing Uruguay at various youth levels, Núñez was called up to the senior national team for his first time in 2019. He scored on his international debut against Peru. After missing the 2021 Copa América due to an injury, Núñez represented Uruguay at the 2022 FIFA World Cup and the 2024 Copa América.",
       "goals": 23,
-      "appearances": 55
+      "appearances": 55,
+      "achievements": "No achievements available"
     },
     {
       "id": 11,
@@ -121,9 +131,10 @@
       "number": 20,
       "description": "Portuguese forward",
       "image": "jota",
-      "bio": "Diogo José Teixeira da Silva (born 4 December 1996), known as Diogo Jota,[note 1] is a Portuguese professional footballer who plays as a forward or left winger for Premier League club Liverpool and the Portugal national team. Jota is known for his clinical finishing, explosive pace, and dribbling ability. He's also a top 100 FIFA player",
+      "bio": "Diogo José Teixeira da Silva (born 4 December 1996), known as Diogo Jota,[note 1] is a Portuguese professional footballer who plays as a forward or left winger for Premier League club Liverpool and the Portugal national team. Jota is known for his clinical finishing, explosive pace, and dribbling ability.\n\nJota started his career with Paços de Ferreira, before signing for La Liga club Atlético Madrid in 2016. After two seasons in the Primeira Liga, he was consecutively loaned to Primeira Liga club FC Porto in 2016 and EFL Championship club Wolverhampton Wanderers in 2017. Having helped them gain promotion to the Premier League, he joined the club in 2018 for a reported €14 million and went on to make 131 appearances for them, scoring 44 goals. In 2020, he signed for Liverpool for a fee reported to be £41 million.",
       "goals": 34,
-      "appearances": 101
+      "appearances": 101,
+      "achievements": "No achievements available"
     }
   ]
 }

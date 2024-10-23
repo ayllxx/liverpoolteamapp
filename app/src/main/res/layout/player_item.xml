@@ -9,37 +9,40 @@
     <!-- Player Image -->
     <ImageView
         android:id="@+id/player_image"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintWidth_percent="0.2"
-    app:layout_constraintDimensionRatio="1:1"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    android:scaleType="centerCrop"
-    android:src="@drawable/ic_launcher_foreground" />
+        android:layout_width="110dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="15sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
 
     <!-- Player Name -->
     <TextView
         android:id="@+id/player_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/player_image"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingLeft="20sp"
         android:text="Player Name"
+        android:textSize="18sp"
         android:textStyle="bold"
-        android:textSize="18sp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/player_image"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Player Position -->
     <TextView
         android:id="@+id/player_position"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    app:layout_constraintStart_toEndOf="@id/player_image"
-    app:layout_constraintTop_toBottomOf="@id/player_name"
-    app:layout_constraintEnd_toEndOf="parent"
-    android:text="Player Position"
-    android:textSize="14sp"
-    android:textColor="#666" />
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20sp"
+        android:text="Player Position"
+        android:textColor="#666"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/player_image"
+        app:layout_constraintTop_toBottomOf="@id/player_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>

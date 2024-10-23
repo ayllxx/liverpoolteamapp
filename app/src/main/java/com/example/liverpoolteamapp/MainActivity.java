@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                             playerObject.getInt("goals"),
                             playerObject.has("assists") ? playerObject.getInt("assists") : 0, // Check if assists exist
                             playerObject.getInt("appearances")
+
                     );
                     players.add(player);
                 }
