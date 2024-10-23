@@ -5,8 +5,11 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import android.content.Intent;
 
 public class PlayerDetailsActivity extends AppCompatActivity {
+
+    private String wikiUrl;  // Wikipedia URL for the player
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,9 @@ public class PlayerDetailsActivity extends AppCompatActivity {
             playerBio.setText(playerBioStr);
             playerImage.setImageResource(getResources().getIdentifier(playerImageStr, "drawable", getPackageName()));
 
+            // Set Wikipedia URL based on player name
+            wikiUrl = "https://en.wikipedia.org/wiki/" + playerNameStr.replace(" ", "_");
+
             // Display stats
             StringBuilder stats = new StringBuilder();
             if (playerPosition.equalsIgnoreCase("Goalkeeper")) {
@@ -47,13 +53,19 @@ public class PlayerDetailsActivity extends AppCompatActivity {
                 }
             }
             stats.append("Appearances: ").append(playerAppearances);
-
-            // Set stats text
             playerStats.setText(stats.toString());
         }
 
         // Handle the back button click using FloatingActionButton
         FloatingActionButton fabBack = findViewById(R.id.fab_back);
         fabBack.setOnClickListener(v -> finish());
+
+        // Handle the Wikipedia button click
+        FloatingActionButton fabWiki = findViewById(R.id.fab_wiki);
+        fabWiki.setOnClickListener(v -> {
+            Intent intent = new Intent(PlayerDetailsActivity.this, WebViewActivity.class);
+            intent.putExtra("wikiUrl", wikiUrl);  // Pass the Wikipedia URL to WebViewActivity
+            startActivity(intent);
+        });
     }
 }
