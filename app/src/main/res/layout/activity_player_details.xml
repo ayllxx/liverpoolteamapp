@@ -56,16 +56,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- FloatingActionButton for Back Arrow -->
+    <!-- FloatingActionButton for Back Navigation -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_media_previous"
+        android:src="@drawable/ic_arrow_back_white_24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="16dp"
         app:backgroundTint="@color/colorPrimary"
         android:contentDescription="Back Button" />
+
+    <!-- Button to Open Wikipedia Page -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_wiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_info_details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/colorPrimary"
+        android:contentDescription="Open Wikipedia" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
